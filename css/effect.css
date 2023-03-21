@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+}
+.full-page {
+  font-size: 5em;
+  height: 100vh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  scroll-snap-type: y proximity;
+}
+
+.area-view {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-area-views: center;
+  scroll-snap-align: start;
+}
+
+.area-view:nth-child(1) {
+  background: #62c454;
+}
+.area-view:nth-child(2) {
+  background: #f5bd50;
+}
+.area-view:nth-child(3) {
+  background: #ea695d;
+}
+.area-view:nth-child(4) {
+  background: #3474e0;
+}
